@@ -52,6 +52,7 @@ function Orion:CreateOrion(orionName)
         end
     end)
 
+    ScreenGui.Name = "OrionLibrary"
     ScreenGui.Parent = game.CoreGui
     ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
